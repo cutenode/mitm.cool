@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  display: block;
+  max-width: 60%;
+  min-width: 40%;
+  margin-top: 5%;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7em;
+  border-bottom-style: solid;
+  border-bottom-color: #ff69b4;
+  padding-bottom: 1em;
+}
+
+h1::before {
+  content: ' ✨ '
+}
+
+h1::after {
+  content: ' ✨ '
+}
+
+.tiny-n-cute {
+  font-size: 0.65em;
+  padding: 1em;
+}
+
+.tiny-n-cute::before {
+  content: '~~  '
+}
+
+.tiny-n-cute::after {
+  content: '  ~~'
+}
+
+.disclaimer {
+  font-weight: bold;
+}
+
+.pink-af {
+  color: #ff69b4;
+}
