@@ -1,5 +1,7 @@
 # mitm.cool
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cutenode/mitm.cool.svg)](https://greenkeeper.io/)
+
 A very simple Node.js app that I've deployed to Azure without configuring SSL, with the intent to allow the connection to be MTIM'ed (see [Wikipedia](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) to better understand what an MITM attack is) to auth.
 
 ## FAQ
