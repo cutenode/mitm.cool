@@ -23,4 +23,4 @@ app.get('/', (req, res) => {
   res.render('index', data)
 })
 
-app.listen(port, () => console.log(`The app is now listening on port 8080!`))
+app.listen(port, () => console.log(`The app is now listening on port ${port}!`))
